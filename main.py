@@ -24,7 +24,7 @@ def extract_username_from_url(url):
 
 def scrape_reddit_user(username):
     """
-    Scrapes the last ~600 Reddit posts and comments (max 3 pages each) for a given user.
+    Scrapes the last ~300 Reddit posts and comments (max 3 pages each) for a given user.
     Filters out empty or very short text content.
     Returns a list of dictionaries with 'type' and 'content'.
     """
